@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Eye Care Provider</fullName>
+        <default>false</default>
+        <label>Eye Care Provider</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician/Medical Provider</fullName>
+        <default>false</default>
+        <label>Physician/Medical Provider</label>
+    </customValue>
+    <customValue>
+        <fullName>State Department of Rehabilitation</fullName>
+        <default>false</default>
+        <label>State Department of Rehabilitation</label>
+    </customValue>
+    <customValue>
+        <fullName>Government of Social Service Agency</fullName>
+        <default>false</default>
+        <label>Government of Social Service Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Veterans Administration</fullName>
+        <default>false</default>
+        <label>Veterans Administration</label>
+    </customValue>
+    <customValue>
+        <fullName>Senior Program</fullName>
+        <default>false</default>
+        <label>Senior Program</label>
+    </customValue>
+    <customValue>
+        <fullName>Assisted Living Facility</fullName>
+        <default>false</default>
+        <label>Assisted Living Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Nursing Home/Long-Term Care Facility</fullName>
+        <default>false</default>
+        <label>Nursing Home/Long-Term Care Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Faith-Based Organization</fullName>
+        <default>false</default>
+        <label>Faith-Based Organization</label>
+    </customValue>
+    <customValue>
+        <fullName>Independent Living Center</fullName>
+        <default>false</default>
+        <label>Independent Living Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Family Member or Friend</fullName>
+        <default>false</default>
+        <label>Family Member or Friend</label>
+    </customValue>
+    <customValue>
+        <fullName>Self-Referral</fullName>
+        <default>false</default>
+        <label>Self-Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Referral Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,69 @@
+<apex:page showHeader="false" standardStylesheets="false"
+	applyHtmlTag="false" applyBodyTag="false" docType="html-5.0"
+	standardController="Account" recordSetVar="acc">
+	<!-- <apex:stylesheet value="{!$Resource.TestStyles}"/> -->
+	<html lang="en">
+<body>
+	<h3>Welcome to SLATE</h3>
+	<!--    <p>Contact page for {!account.name}</p> <!-- why doesn't this work when used with "recordSetVar"? -->
+	<!--
+    <apex:pageBlock title="contacts">
+      <apex:pageBlockTable value="{!account.Contacts}" var="contact">
+        <apex:column value="{!contact.Name}"/>
+        <apex:column value="{!contact.Phone}"/>
+      </apex:pageBlockTable>
+    </apex:pageBlock>
+     <apex:pageBlock title="Contacts">
+        <apex:form >
+            <apex:dataTable value="{!account.Contacts}" var="contact" cellPadding="4" border="1">
+              <apex:column >
+               <apex:facet name="header">Name</apex:facet>
+               <apex:commandLink >
+                 {!contact.Name}
+                 <apex:param name="cid" value="{!contact.id}"/>
+               </apex:commandLink>
+              </apex:column>
+              <apex:column >
+               <apex:facet name="header">Phone</apex:facet>
+               {!contact.Phone}
+              </apex:column>
+            </apex:dataTable>
+        </apex:form>
+    </apex:pageBlock>
+    <apex:pageBlock title="lofa">
+      <apex:dataTable value="{!acc}" var="a">
+        <apex:column value="{!a.name}"/>
+      </apex:dataTable>
+    </apex:pageBlock>
+    <apex:detail subject="{!$CurrentPage.parameters.cid}" relatedList="false" title="false"/>
+-->
+	<p>Please select an option below.</p>
+	<div>
+		<h5>Administration Tools:</h5>
+		<a href="#">Authorizations</a> <a href="#">Database Users</a> <a
+			href="#">Class Information</a> <a href="#">Intake Service List</a> <a
+			href="#">Service Groups</a> <a href="#">Payment Sources</a> <a
+			href="#">Outreach Types</a> <a href="#">Client Merge</a>
+	</div>
+	<div>
+		<h5>Instructor Tools:</h5>
+		<a href="#">Lesson Notes</a> <a href="#">Progress Reports</a> <a
+			href="#">Waiting List</a> <a href="#">Client Schedules</a> <a
+			href="#">Billing</a> <a href="#">Volunteer Hours</a> <a href="#">Volunteer
+			Schedules</a> <a href="#">Outside Agency Contact Report</a> <a href="#">Instructional
+			Time Taught this Month</a>
+		<h5>Staff Tools:</h5>
+		<a href="#">Intakes and Contacts</a> <a href="#">New Intake</a> <a
+			href="#">Student Plan</a> <a href="#">Reports</a>
+	</div>
+	<div>
+		<a href="#">Add an Authorization</a> <a href="#">Add Contact</a>
+	</div>
+
+	<div>
+		<a href="#">Main Page</a> <a href="#">Logout</a> <a href="#">Change
+			Password</a>
+	</div>
+</body>
+	</html>
+</apex:page>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Assistive Technology Training - Broup</fullName>
+        <default>false</default>
+        <label>Assistive Technology Training - Broup</label>
+    </customValue>
+    <customValue>
+        <fullName>Assistive Technology Training - Individual</fullName>
+        <default>false</default>
+        <label>Assistive Technology Training - Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>Communications (Braille) Assessment</fullName>
+        <default>false</default>
+        <label>Communications (Braille) Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Communications (Braille) Training - Group</fullName>
+        <default>false</default>
+        <label>Communications (Braille) Training - Group</label>
+    </customValue>
+    <customValue>
+        <fullName>fCommunications (Braille) Training - Individual</fullName>
+        <default>false</default>
+        <label>fCommunications (Braille) Training - Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Living Skills Assessment</fullName>
+        <default>false</default>
+        <label>Daily Living Skills Assessment</label>
+    </customValue>
+    <customValue>
+        <fullName>Daily Living Skills Training - Individual</fullName>
+        <default>false</default>
+        <label>Daily Living Skills Training - Individual</label>
+    </customValue>
+    <customValue>
+        <fullName>Orientation &amp; Mobility Evaluation</fullName>
+        <default>false</default>
+        <label>Orientation &amp; Mobility Evaluation</label>
+    </customValue>
+    <customValue>
+        <fullName>Orientation &amp; Mobility Training – Individual</fullName>
+        <default>false</default>
+        <label>Orientation &amp; Mobility Training – Individual</label>
+    </customValue>
+    <masterLabel>Service Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

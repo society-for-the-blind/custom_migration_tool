@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Client Layout</layout>
+        <sections>
+            <label>Detalle del contacto</label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Type --></label>
+            <section>Contact Type</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Information --></label>
+            <section>Emergency Information</section>
+        </sections>
+        <sections>
+            <label>Direcciones de familia</label>
+            <section>Household Address</section>
+        </sections>
+    </layouts>
+    <workflowTasks>
+        <description><!-- An automatic thank you email has been sent to the contact for signing up to be a volunteer. --></description>
+        <name>GW_Volunteers__Volunteer_Signup_Thank_You_Sent_Contact</name>
+        <subject><!-- Volunteer Signup Thank You Sent - Contact --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

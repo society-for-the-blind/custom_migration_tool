@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <quickActions>
+        <label><!-- New Donation --></label>
+        <name>New_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Grant --></label>
+        <name>New_Grant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Major Gift --></label>
+        <name>New_Major_Gift</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Matching Donation --></label>
+        <name>New_Matching_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Membership --></label>
+        <name>New_Membership</name>
+    </quickActions>
+</CustomObjectTranslation>
